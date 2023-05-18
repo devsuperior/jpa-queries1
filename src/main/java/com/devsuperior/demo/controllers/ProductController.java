@@ -19,6 +19,6 @@ public class ProductController {
 	
 	@GetMapping
 	public List<Product> findAll() {
-		return productRepository.findAll();
+		return productRepository.searchAll();
 	}
 }

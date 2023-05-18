@@ -19,6 +19,6 @@ public class EmployeeController {
 	
 	@GetMapping
 	public List<Employee> findAll() {
-		return employeeRepository.findAll();
+		return employeeRepository.searchAll();
 	}
 }
